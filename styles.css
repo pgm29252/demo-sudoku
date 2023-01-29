@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container-sudoku {
+  max-width: 1024px;
+  margin: 15px auto;
+}
+
+.group-block-sudoku {
+  border: solid 1px #999;
+}
+
+.item-block-sudoku {
+  border: solid 1px #ddd;
+  max-width: 150px;
+  height: 90px;
+  font-size: 18px;
+}
+
+.item-block-sudoku:hover,
+:focus {
+  background-color: #fff;
+  cursor: pointer;
+}
